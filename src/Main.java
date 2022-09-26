@@ -53,7 +53,7 @@ public class Main {
     private static void getPortfolioPerToken(){
 
         try{
-            BufferedReader br = new BufferedReader(new FileReader("/home/kibe/kibe.com/propine.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("/home/collo/collo.com/propine.csv"));
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
@@ -73,7 +73,7 @@ public class Main {
 
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("/home/kibe/kibe.com/propine.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("/home/collo/collo.com/propine.csv"));
 
             String line;
             while ((line = br.readLine()) != null) {
@@ -92,7 +92,7 @@ public class Main {
     }
     private static void getPortfolioPerTokenForAGivenDate(String date){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("/home/kibe/kibe.com/propine.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("/home/collo/collo.com/propine.csv"));
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
@@ -112,7 +112,7 @@ public class Main {
     private static void getPortfolioPerTokenForAGivenDateNToken(String date, String token){
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("/home/kibe/kibe.com/propine.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("/home/collo/collo.com/propine.csv"));
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
